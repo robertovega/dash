@@ -1,0 +1,82 @@
+page-login {
+
+ .action-button {
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    border-radius: 50px;
+    background-color: #1775ff;
+    color: #fff;
+    font-size: 13px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+}
+
+.separator-fields {
+    height: 8px;
+}
+
+.input-form.light {
+    height: 50px;
+    padding-left: 30px;
+    border-bottom-width: 0px;
+    border-radius: 500px;
+    background-color: hsla(0, 0%, 95%, .1);
+    border: 1px solid #ccc;
+}
+
+.input-form {
+	font-family: Montserrat, sans-serif;
+    display: inline-block;
+    width: 100%;
+    height: 38px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border-style: none none solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #e6e6e6;
+    border-radius: 0px;
+    background-color: transparent;
+    color: #222;
+    font-size: 16px;
+}
+
+.light {
+}
+
+
+.link-upper {
+    display: inline-block;
+    color: hsla(0, 0%, 100%, .4);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ion-title{
+	font-family: Montserrat, sans-serif;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #bab7c7;
+  font-size:9px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ffffff;
+  font-size:9px;  
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ffffff;
+  font-size:9px;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ffffff;
+  font-size:9px;
+}
+
+
+}

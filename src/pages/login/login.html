@@ -1,0 +1,24 @@
+<ion-header>
+</ion-header>
+
+<ion-content padding>
+
+   <!--Logo-->
+   <div class="logo-login" style="background-image: url('assets/imgs/logo-educacion.png');height: 300px; background-position: 50% 50%;background-size: 251px; background-repeat: no-repeat">
+   </div>
+   <!--Formulario de login-->
+   <div class=" padding">
+      <div class="bottom-section padding">
+      </div>
+      <div>
+         <input class="input-form light w-input" data-name="email" id="email-field" maxlength="256" name="email" placeholder="USUARIO" required="required" type="email" value="" [(ngModel)]="email">
+         <div class="separator-fields"></div>
+      </div>
+      <div class="block-input-combined"><input class="input-form left light w-input" data-name="password" id="password-field" maxlength="256" name="password" placeholder="PASSWORD" required="required" type="password" value="" [(ngModel)]="password"></div>
+      <div class="separator-fields"></div>
+      <div >
+         <button ion-button round class="action-button" block (click)="login()">Iniciar Sesión</button>
+      </div>
+   </div>
+
+</ion-content>

@@ -7,6 +7,15 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
+import { LoginPage } from '../pages/login/login';
+
+import { EvaluacionPage } from '../pages/evaluacion/evaluacion';
+import { GeneralPage } from '../pages/general/general';
+import { InfraestructuraPage } from '../pages/infraestructura/infraestructura';
+import { ParticipacionPage } from '../pages/participacion/participacion';
+import { ProgramasPage } from '../pages/programas/programas';
+import { RecursoshumanosPage } from '../pages/recursoshumanos/recursoshumanos';
+import { RecursosmaterialesPage } from '../pages/recursosmateriales/recursosmateriales';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -17,7 +26,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    EvaluacionPage,
+    GeneralPage,
+    InfraestructuraPage,
+    ParticipacionPage,
+    ProgramasPage,
+    RecursoshumanosPage,
+    RecursosmaterialesPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +46,15 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    LoginPage,
+    EvaluacionPage,
+    GeneralPage,
+    InfraestructuraPage,
+    ParticipacionPage,
+    ProgramasPage,
+    RecursoshumanosPage,
+    RecursosmaterialesPage
   ],
   providers: [
     StatusBar,
